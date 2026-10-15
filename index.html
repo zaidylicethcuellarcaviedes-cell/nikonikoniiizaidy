@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Niko Niko Niii: tienda gamer y otaku con productos increíbles.">
+    <title>Niko Niko Niii | Gamer & Otaku</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">NIKO <span>NIKO NIII!</span></a>
+
+        <nav class="nav">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="portafolio.html">Productos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <p class="eyebrow">⚡ MODO GAMER ACTIVADO ⚡</p>
+                <h1>¡Tu mundo <span>otaku</span><br>comienza aquí!</h1>
+                <p>
+                    Explora un universo lleno de anime, videojuegos,
+                    accesorios y productos que llevan tu pasión a otro nivel.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="portafolio.html" class="btn btn-primary">Ver productos</a>
+                    <a href="nosotros.html" class="btn btn-secondary">Conócenos</a>
+                </div>
+
+                <div class="hero-info">
+                    <div>
+                        <strong>08</strong>
+                        <span>Productos destacados</span>
+                    </div>
+                    <div>
+                        <strong>RGB</strong>
+                        <span>Estilo neón</span>
+                    </div>
+                    <div>
+                        <strong>100%</strong>
+                        <span>Vibra otaku</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-art">
+                <div class="neon-circle"></div>
+                <div class="hero-card">
+                    <span class="hero-icon">🎮</span>
+                    <h2>LEVEL UP!</h2>
+                    <p>Juega · Explora · Colecciona</p>
+                    <span class="status">● ONLINE</span>
+                </div>
+                <div class="floating-tag tag-one">⚡ GAMER</div>
+                <div class="floating-tag tag-two">♡ OTAKU</div>
+            </div>
+        </section>
+
+        <section class="led-panel section">
+            <div>
+                <p class="eyebrow">PERSONALIZA TU AMBIENTE</p>
+                <h2>¡Enciende las luces!</h2>
+                <p>Elige el color de la iluminación neón de la página.</p>
+            </div>
+
+            <div class="color-controls">
+                <button class="color-btn" data-color="#168cff" aria-label="Luz azul" title="Azul"></button>
+                <button class="color-btn" data-color="#ff36bd" aria-label="Luz rosa" title="Rosa"></button>
+                <button class="color-btn" data-color="#ff304f" aria-label="Luz roja" title="Roja"></button>
+                <button class="color-btn" data-color="#ffffff" aria-label="Luz blanca" title="Blanca"></button>
+            </div>
+        </section>
+
+        <section class="section products-section" id="productos">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">TU PRÓXIMA OBSESIÓN</p>
+                    <h2>Productos destacados</h2>
+                    <p>Encuentra artículos para tu setup gamer y tu colección otaku.</p>
+                </div>
+                <a href="portafolio.html" class="text-link">Ver catálogo completo →</a>
+            </div>
+
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="gamer">Gamer</button>
+                <button class="filter-btn" data-filter="otaku">Otaku</button>
+                <button class="filter-btn" data-filter="accesorios">Accesorios</button>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card" data-category="gamer">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=700&q=80" alt="Accesorios para videojuegos" loading="lazy">
+                        <span class="product-label">GAMER</span>
+                    </div>
+                    <div class="product-details">
+                        <p class="product-category">Setup gamer</p>
+                        <h3>Combo Gamer RGB</h3>
+                        <p class="price">$189.900 COP</p>
+                        <a href="contacto.html" class="product-link">Consultar producto ↗</a>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="gamer">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=700&q=80" alt="Control para videojuegos" loading="lazy">
+                        <span class="product-label">POPULAR</span>
+                    </div>
+                    <div class="product-details">
+                        <p class="product-category">Videojuegos</p>
+                        <h3>Control Gamer</h3>
+                        <p class="price">$129.900 COP</p>
+                        <a href="contacto.html" class="product-link">Consultar producto ↗</a>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="accesorios">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1612444530582-fc66183b16f7?auto=format&fit=crop&w=700&q=80" alt="Audífonos para escuchar música y jugar" loading="lazy">
+                        <span class="product-label">NEÓN</span>
+                    </div>
+                    <div class="product-details">
+                        <p class="product-category">Accesorios</p>
+                        <h3>Audífonos Gamer</h3>
+                        <p class="price">$99.900 COP</p>
+                        <a href="contacto.html" class="product-link">Consultar producto ↗</a>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="otaku">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=700&q=80" alt="Ilustración de estilo anime" loading="lazy">
+                        <span class="product-label">OTAKU</span>
+                    </div>
+                    <div class="product-details">
+                        <p class="product-category">Coleccionables</p>
+                        <h3>Arte Anime</h3>
+                        <p class="price">$39.900 COP</p>
+                        <a href="contacto.html" class="product-link">Consultar producto ↗</a>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="otaku">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1601850494422-3cf14624b0b3?auto=format&fit=crop&w=700&q=80" alt="Figura coleccionable decorativa" loading="lazy">
+                        <span class="product-label">COLECCIÓN</span>
+                    </div>
+                    <div class="product-details">
+                        <p class="product-category">Coleccionables</p>
+                        <h3>Figura Anime</h3>
+                        <p class="price">$79.900 COP</p>
+                        <a href="contacto.html" class="product-link">Consultar producto ↗</a>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="accesorios">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80" alt="Reloj moderno como accesorio" loading="lazy">
+                        <span class="product-label">ESTILO</span>
+                    </div>
+                    <div class="product-details">
+                        <p class="product-category">Accesorios</p>
+                        <h3>Accesorio Urbano</h3>
+                        <p class="price">$59.900 COP</p>
+                        <a href="contacto.html" class="product-link">Consultar producto ↗</a>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="gamer">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1547394765-185e1e68f34e?auto=format&fit=crop&w=700&q=80" alt="Teclado para computadora gamer" loading="lazy">
+                        <span class="product-label">SETUP</span>
+                    </div>
+                    <div class="product-details">
+                        <p class="product-category">Setup gamer</p>
+                        <h3>Teclado Mecánico</h3>
+                        <p class="price">$159.900 COP</p>
+                        <a href="contacto.html" class="product-link">Consultar producto ↗</a>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="accesorios">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=700&q=80" alt="Mouse para computadora" loading="lazy">
+                        <span class="product-label">PRECISIÓN</span>
+                    </div>
+                    <div class="product-details">
+                        <p class="product-category">Accesorios</p>
+                        <h3>Mouse Gamer</h3>
+                        <p class="price">$69.900 COP</p>
+                        <a href="contacto.html" class="product-link">Consultar producto ↗</a>
+                    </div>
+                </article>
+            </div>
+            <p class="small-note">* Precios de ejemplo para el proyecto académico; pueden modificarse.</p>
+        </section>
+
+        <section class="promo-section">
+            <div class="promo-content">
+                <p class="eyebrow">¿LISTO PARA SUBIR DE NIVEL?</p>
+                <h2>Tu setup. Tu anime. <span>Tu estilo.</span></h2>
+                <p>Descubre tus favoritos y dale un toque único a tu espacio.</p>
+                <a href="portafolio.html" class="btn btn-primary">Explorar catálogo</a>
+            </div>
+            <div class="promo-symbol">✦</div>
+        </section>
+
+        <section class="section features-section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">¿POR QUÉ NIKO NIKO NIII?</p>
+                    <h2>Mucho más que una tienda</h2>
+                </div>
+            </div>
+
+            <div class="features-grid">
+                <article class="feature-card">
+                    <span>🎮</span>
+                    <h3>Modo gamer</h3>
+                    <p>Accesorios para darle personalidad a tu espacio de juego.</p>
+                </article>
+                <article class="feature-card">
+                    <span>🌸</span>
+                    <h3>Universo otaku</h3>
+                    <p>Un espacio para los fans del anime y las colecciones.</p>
+                </article>
+                <article class="feature-card">
+                    <span>💡</span>
+                    <h3>Estilo neón</h3>
+                    <p>Colores vibrantes y una experiencia visual interactiva.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">NIKO <span>NIKO NIII!</span></a>
+        <p>Tu universo gamer y otaku comienza aquí. ✨</p>
+        <div class="footer-links">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="portafolio.html">Productos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <p class="copyright">© 2026 Niko Niko Niii. Proyecto académico.</p>
+    </footer>
+
+    <button class="back-top" id="backTop" aria-label="Volver arriba">↑</button>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
